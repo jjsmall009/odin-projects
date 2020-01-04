@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    border: 1px solid grey;
+    margin: 3px;
+}
+
+.left-nav {
+    background-color: moccasin;
+}
+
+.right-nav {
+    background-color: indianred;
+    float: right;
+}
+
+#main-area {
+    margin: auto;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#footer {
+    background-color: #f2f2f2;
+}
