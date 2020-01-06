@@ -1,48 +1,103 @@
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     margin: 0px;
     padding: 0px;
 }
 
-li {
-    display: inline;
-    border: 1px solid grey;
-    margin: 0px;
+#header {
+    overflow: hidden;
+    padding: 0;
 }
 
-#header {
-    border: 1px solid black;
-    overflow: hidden;
+input:focus{
+    outline: none;
+    box-shadow: 0 1px 6px rgb(221, 220, 220);
+}
+
+input:hover{
+    box-shadow: 0 1px 6px rgb(221, 220, 220);
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    font-size: 13px;
+    padding: 15px;
+}
+
+a { 
+    text-decoration: none;
+    color: #5f6368;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    background-color:#4285f4;
+    color: white;
+    border-radius: 2px;
+    padding: 7.5px 14px;
+    margin-right: 15px;
+    margin-left: 10px;
+    font-weight: bold;
 }
 
 .left-nav {
     float: left;
+    padding: 0;
 }
 
 .right-nav {
     float: right;
+    padding: 0;
 }
 
 #main-area {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 150px;
+    font-size: 14px;
 }
 
 div form {
     margin: 30px;
+    
 }
 
-div input {
-    border-radius: 30px;
-    width: 500px;
-    height: 30px;
+input {
+    width: 570px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius:25px;
+    border: 1px solid rgb(228, 224, 224);
+    font-size: 16px;
+    background: no-repeat url('../images/magnify.png');
+    background-size: 20px 15px;
+    background-position: 3%;
 }
 
 div button {
-    border-radius: 5px;
-    padding: 10px;
-    border-style: none;
-    font-size: 16px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    border-color: transparent;
+    padding: 9px 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px 5px;
+    color: #5F6368;
+
+}
+
+button:hover {
+    color : black;
+    cursor: pointer;
+    border-color: #ececec;
 }
 
 #footer {
@@ -50,4 +105,5 @@ div button {
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding: 0;
 }

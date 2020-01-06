@@ -10,9 +10,9 @@ There won't be any true functionality outside of just linking elements to their 
 
 Here are some things to know:
 
-* ...
-* ...
+* The spacing for the navigation is a little off in some spots.
+* My CSS is pretty cluttered and could definitely use some refactoring.
 
 ## The Final Product
 
--TODO- put screenshot of the final page.
+![here is the final google homepage](images/final-result.png)
