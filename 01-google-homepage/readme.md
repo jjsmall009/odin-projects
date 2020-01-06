@@ -15,4 +15,4 @@ Here are some things to know:
 
 ## The Final Product
 
-![here is the final google homepage](images/final-result.png)
+![here is the final google homepage](https://github.com/jjsmall009/odin-projects/blob/master/01-google-homepage/images/final-result.png)
