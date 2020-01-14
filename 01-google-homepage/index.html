@@ -1,67 +1,75 @@
+<!--
+Name:       JJ Small
+Date:       Jan/2020
+Project:    Google Homepage
+Link:       https://www.theodinproject.com/courses/web-development-101/lessons/html-css
+Info:       This project has us recreate the Google search homepage using pure HTML and CSS. 
+            There isn't any actual functionality besides linking to the proper locations.     
+-->
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Google</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Google</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
 
-    <body>
-        <!-- Create the top navigation bar -->
-        <div id="header">
-             <div class="left-nav">
-                <ul>
-                    <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-                    <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
-                </ul>
-            </div>
+<body>
+    <!-- Create the top navigation bar -->
+    <div id="header">
+        <div class="left-nav">
+            <ul>
+                <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+            </ul>
+        </div>
 
-            <div class="right-nav">
-                <ul>
-                    <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
-                    <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-                    <li><a class="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></li>
-                </ul>
-            </div>
-        </div> <!--Close header div-->
+        <div class="right-nav">
+            <ul>
+                <li><a href="https://mail.google.com/mail/?tab=wm&ogbl">Gmail</a></li>
+                <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                <li><a class="sign-in" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></li>
+            </ul>
+        </div>
+    </div> <!-- Close header div -->
 
-        <!-- Create the center search area with logo and buttons-->
-        <div id="main-area">
-            <div>
-                <img src="images/google-logo.png" width="272" height="92">
-            </div>
+    <!-- Create the center search area with logo and buttons -->
+    <div id="main-area">
+        <div>
+            <img src="images/google-logo.png" width="272" height="92">
+        </div>
 
-            <div>
-                <form>
-                    <input type="search" name="search" value ="" autofocus>
-                </form>
-            </div>
-    
-            <div>
-                <button type="button">Google Search</button>
-                <button type="button">I'm Feeling Lucky</button>
-            </div>
-        </div> <!--Close main area div-->
+        <div>
+            <form>
+                <input type="search" name="search" value ="" autofocus>
+            </form>
+        </div>
 
-        <!-- Create the footer navigation bar-->
-        <div id="footer">
-            <div class="left-nav">
-                <ul>
-                    <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
-                    <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
-                    <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Words</a></li>
-                </ul>
-            </div>
+        <div>
+            <button type="button">Google Search</button>
+            <button type="button">I'm Feeling Lucky</button>
+        </div>
+    </div> <!-- Close main area div -->
 
-            <div class="right-nav">
-                <ul>
-                    <li><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
-                    <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
-                    <li><a href="test">Settings</a></li>
-                </ul>
-            </div>
-        </div> <!--Close footer div-->
-    </body>
+    <!-- Create the footer navigation bar -->
+    <div id="footer">
+        <div class="left-nav">
+            <ul>
+                <li><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Words</a></li>
+            </ul>
+        </div>
+
+        <div class="right-nav">
+            <ul>
+                <li><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+                <li><a href="test">Settings</a></li>
+            </ul>
+        </div>
+    </div> <!-- Close footer div -->
+</body>
 </html>
